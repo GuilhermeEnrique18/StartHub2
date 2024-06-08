@@ -47,7 +47,7 @@ public class UserService {
 	public UserDto update(Long id, UserDto dto) {
         try {
             User entity = repository.getReferenceById(id);
-            entity.setId(dto.getId());
+
 			entity.setEmail(dto.getEmail());
 			entity.setUsername(dto.getUsername());
 			entity.setPassword(dto.getPassword());

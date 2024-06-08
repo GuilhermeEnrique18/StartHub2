@@ -2,10 +2,9 @@ package com.StartHub.dtos;
 
 import com.StartHub.model.User;
 
-import jakarta.persistence.Id;
+//import jakarta.persistence.Id;
 
 public class UserDto {
-    @Id
     private Long id;
 
     private String username;
